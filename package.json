@@ -1,0 +1,36 @@
+{
+  "name": "mvc-crud-product-supplier",
+  "version": "1.0.0",
+  "description": "CRUD app for suppliers and products - Node.js + Express + MongoDB + Mongoose + EJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [],
+  "author": "ngoc-gif",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngoc-gif/node-mvc-crud-product-supplier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ngoc-gif/node-mvc-crud-product-supplier/issues"
+  },
+  "homepage": "https://github.com/ngoc-gif/node-mvc-crud-product-supplier#readme"
+}
